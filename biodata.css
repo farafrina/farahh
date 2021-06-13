@@ -1,0 +1,74 @@
+body {
+  background-image: url("background1.jpg");
+}
+
+h1
+{
+text-align:center;
+color:white;
+font-family:"Lucida Handwriting"
+}
+
+.parentDiv {  
+display: flex; 
+justify-content: center; 
+align-items: center;}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #F0F8FF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:  #BDB76B;
+  color: white;
+}
+
+video {
+  width: 50%;
+  height: auto;
+}
+
+<video width="400" controls>
+  <source src="aboutfarah.mp4" type="video/mp4">
+  <source src="aboutfarah" type="video/ogg">
+</video>
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #F0F8FF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:  #BDB76B;
+  color: white;
+}
+
